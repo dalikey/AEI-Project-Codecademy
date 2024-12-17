@@ -1,0 +1,101 @@
+// De volgende SQL-query’s worden gebruikt in de applicatie. ‘%’ tekens gevolgd door een letter wordt in de Java implementatie gebruikt om invoer van gebruikers in de query’s te gebruiken. %d staat voor een getal “Decimaal” en %s staat voor een tekst “String”.  
+
+// Voegt een nieuwe certificaat toe.
+INSERT INTO Certificate (Beoordeling, Ondertekenaar, Cursist, Cursus, GeslachtCursist) VALUES ('%d', '%s','%s','%s','%s');
+
+// Toont alle certificaten.
+SELECT * FROM Certificate;
+
+// Toont het aantal percentage van certificaten met een beoordeling van 6 of hoger van vrouwen. 
+SELECT (SELECT COUNT (*) FROM Certificate WHERE Beoordeling > 5 AND GeslachtCursist = 'Vrouw') * 100 / (select COUNT (*) FROM Certificate) As Percentage FROM Certificate;
+
+// Toont het aantal percentage van certificaten met een beoordeling van 6 of hoger van mannen. 
+SELECT (SELECT COUNT (*) FROM Certificate WHERE Beoordeling > 5 AND GeslachtCursist = 'Man') * 100 / (SELECT COUNT (*) FROM Certificate) As Percentage FROM Certificate;
+
+// Werkt het certificaat bij met de ingevoerde gegevens voor het aanmaken van een certificaat waar het certificaat ID hetzelfde is.
+UPDATE Certificate SET Beoordeling = '%d', Ondertekenaar = '%s' WHERE CertificaatID = %d;
+
+// Voegt nieuwe een cursist toe.
+INSERT INTO Cursist (CursistEmail, Naam, Geboortedatum, Geslacht, Adres, Stad, Land, postcode) VALUES ('%s', '%s', '%s','%s','%s','%s','%s','%s')
+
+// Toont alle cursisten.
+SELECT * FROM Cursist;
+
+// Toont alle cursisten met het opgegeven e-mailadres.
+SELECT * FROM Cursist WHERE CursistEmail = '%s';
+
+// Toont alle cursisten met het opgegeven cursist ID.
+SELECT * FROM Cursist WHERE CursistID = %d;
+
+// Toont alle cursisten met het opgegeven cursist ID.
+SELECT * FROM Cursist WHERE CursistEmail = '%s';
+
+// Werkt de cursist bij met de ingevoerde gegevens voor het aanmaken van een cursist waar het cursist ID hetzelfde is.
+UPDATE Cursist SET CursistEmail = '%s', Naam = '%s', Geboortedatum = '%s', Geslacht = '%s', Adres = '%s’, Stad = '%s', Land = '%s', postcode = '%s' WHERE CursistID = %d;
+
+// Verwijdert cursist waarvan de cursist ID dezelfde is.
+DELETE FROM Cursist WHERE CursistID = %d; 
+
+// Voegt een nieuwe cursus toe.
+INSERT INTO Cursussen (CursusNaam, Onderwerp, IntroductieTekst, Niveau, WebCastTitel, ModuleTitel) VALUES ('%s', '%s', '%s','%s','%s','%s');
+
+// Toont alle cursussen. 
+SELECT * FROM Cursussen;
+
+// Toont de top 3 namen en niveaus van cursussen. 
+SELECT TOP 3 CursusNaam, Niveau FROM Cursussen;
+
+// Toont cursussen waar het opgegeven volgnummer hetzelfde is. 
+SELECT * FROM Cursussen WHERE VolgNummer = %d;
+
+
+// Werkt de cursus bij met de ingevoerde gegevens voor het aanmaken van een cursus waar het volgnummer hetzelfde is.
+UPDATE Cursussen SET CursusNaam = '%s', IntroductieTekst = '%s', Niveau = '%s', WebcastTitel = '%s', ModuleTitel = '%s', Onderwerp = '%s' WHERE VolgNummer = %d;
+
+// Verwijdert cursus waarvan het volgnummer hetzelfde is.
+DELETE FROM Cursussen WHERE Volgnummer = %d; 
+
+// Voegt een nieuwe inschrijving toe.
+INSERT INTO Inschrijvingen (CursistEmail, CursusNaam, RegistratieDatum) VALUES ('%s','%s','%s');
+
+// Toont alle inschrijvingen. 
+SELECT * FROM Inschrijvingen;
+
+// Toont inschrijvingen waar het inschrijving ID hetzelfde is.
+SELECT * FROM Inschrijvingen WHERE InschrijvingID = %d;
+
+// Verwijdert inschrijving waar het inschrijving ID hetzelfde is.
+DELETE FROM Inschrijvingen WHERE InschrijvingID = %d;
+
+// Voegt een nieuwe module toe.
+INSERT INTO Modules (Titel, Versie, Beschrijving, ContactNaam, ContactEmail) VALUES ('%s', '%s', '%s','%s','%s');
+
+// Toont alle modules. 
+SELECT * FROM Modules;
+
+// Toont modules waar het contentItem ID hetzelfde is.
+SELECT * FROM Modules WHERE ContentItemID = %d;
+
+// Werkt de module bij met de ingevoerde gegevens voor het aanmaken van een module waar het contentItem ID hetzelfde is.
+UPDATE Modules SET Titel = '%s', Versie = '%s', Beschrijving = '%s', ContactNaam = '%s', ContactEmail = '%s' WHERE ContentItemID = %d;
+
+// Verwijdert module waar het contentItem ID hetzelfde is.
+DELETE FROM Modules WHERE ContentItemID = %d; SELECT * FROM Modules;
+
+// Voegt een nieuwe webcast toe.
+INSERT INTO Webcasts (Tijdsduur, Url, Spreker, Organisatie, Titel, DatumPublicatie, Beschrijving) VALUES ('%s', '%s', '%s','%s','%s','%s','%s');
+
+// Toont alle webcasts. 
+SELECT * FROM Webcasts;
+
+// Toont de top 3 titels en sprekersnamen van webcasts. 
+SELECT TOP 3 Titel, Spreker FROM Webcasts;
+
+// Toont webcasts waar het contentItem ID hetzelfde is.
+SELECT * FROM Webcasts WHERE ContentItemID = %d;
+
+// Werkt de webcasts bij met de ingevoerde gegevens voor het aanmaken van een webcast waar het contentItem ID hetzelfde is.
+UPDATE Webcasts SET Spreker = '%s', Url = '%s', Organisatie = '%s', Titel = '%s', Tijdsduur = '%d’, DatumPublicatie = '%s', Beschrijving = '%s' WHERE ContentItemID = %d;
+
+// Verwijdert webcast waar het contentItem ID hetzelfde is.
+DELETE FROM Webcasts WHERE ContentItemID = %d; SELECT * FROM Webcasts;

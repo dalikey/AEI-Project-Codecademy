@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8751db24-400f-42a7-ae61-a64baac5daf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Codecademy.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/certificate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/graduated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/graduation-cap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/open-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/podcast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/virtual_logo_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/MainMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/NavbarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/fxml/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/fxml/navbar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/DB/CursistRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/DB/CursistRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/domain/Cursist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/domain/Cursist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/AddCursistenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/AddCursistenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/CursistenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/CursistenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/UI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/fxml/addCursist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/fxml/addCursist.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/fxml/cursisten.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/AEI-Project-Codecademy/programma/ui/fxml/cursisten.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/CursistRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DB/CursistRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/Cursist.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Cursist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/AddCursistenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/AddCursistenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/CursistenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/CursistenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/fxml/addCursist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ui/fxml/addCursist.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/fxml/cursisten.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ui/fxml/cursisten.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="22t03m6uLNggTilZp19nvOjgDAP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8751db24-400f-42a7-ae61-a64baac5daf3" name="Default Changelist" comment="" />
+      <created>1640641379095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640641379095</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

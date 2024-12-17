@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff94ad8b-ace6-4b7f-b376-d1914291b0ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/adaptive.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_17_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2NV ERD Codecademy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2NV Relationeel databaseontwerp Codecademy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3NV ERD diagram Codecademy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3NV Relationeel databaseontwerp Codecademy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AEI-Project-Codecademy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AEI-Project-Codecademy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodecademyUML.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/libraries/adaptive.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/libraries/javafx_sdk_17_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/2NV ERD Codecademy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/2NV Relationeel databaseontwerp Codecademy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/3NV ERD diagram Codecademy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/3NV Relationeel databaseontwerp Codecademy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/AEI-Project-Codecademy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/AEI-Project-Codecademy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEI-Project-Codecademy/CodecademyUML.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programma/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/programma/ui/UI.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29WBWwEEnjvUSAzKcGEFuz6X5Uk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Imports for school/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/mssql-jdbc-9.4.1.jre16.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programma.ui.UI" />
+      <module name="AEI-Project-Codecademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programma.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff94ad8b-ace6-4b7f-b376-d1914291b0ec" name="Changes" comment="" />
+      <created>1653219003589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653219003589</updated>
+      <workItem from="1653219013222" duration="873000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

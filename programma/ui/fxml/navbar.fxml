@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programma.ui.NavbarController">
+   <left>
+      <VBox prefHeight="600.0" prefWidth="290.0" style="-fx-background-color: #393351;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="55.0" fitWidth="231.0" pickOnBounds="true" preserveRatio="true" translateX="25.0">
+               <image>
+                  <Image url="@../../img/virtual_logo_light.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </ImageView>
+            <Button fx:id="home" mnemonicParsing="false" onAction="#btnHome" prefHeight="74.0" prefWidth="289.0" style="-fx-background-radius: 5; -fx-background-color: #68479F;" styleClass="button1" stylesheets="@../../css/style.css" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" translateX="-40.0">
+                     <image>
+                        <Image url="@../../img/home.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="cursisten" mnemonicParsing="false" onAction="#btnCursisten" prefHeight="74.0" prefWidth="289.0" style="-fx-background-radius: 5;" styleClass="button1" stylesheets="@../../css/style.css" text="Cursisten" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" translateX="-40.0">
+                     <image>
+                        <Image url="@../../img/graduated.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="cursussen" mnemonicParsing="false" onAction="#btnCursussen" prefHeight="74.0" prefWidth="289.0" style="-fx-background-radius: 5;" styleClass="button1" stylesheets="@../../css/style.css" text="Cursussen" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" translateX="-40.0">
+                     <image>
+                        <Image url="@../../img/open-book.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="webcasts" mnemonicParsing="false" onAction="#btnWebcasts" prefHeight="74.0" prefWidth="289.0" style="-fx-background-radius: 5;" styleClass="button1" stylesheets="@../../css/style.css" text="Webcasts" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" translateX="-40.0">
+                     <image>
+                        <Image url="@../../img/podcast.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="Inschrijvingen" mnemonicParsing="false" onAction="#btnInschrijvingen" prefHeight="74.0" prefWidth="289.0" style="-fx-background-radius: 5;" styleClass="button1" stylesheets="@../../css/style.css" text="Inschrijvingen" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" translateX="-40.0">
+                     <image>
+                        <Image url="@../../img/voting.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="certificaten" mnemonicParsing="false" onAction="#btnCertificaten" prefHeight="74.0" prefWidth="289.0" style="-fx-background-radius: 5;" styleClass="button1" stylesheets="@../../css/style.css" text="Certificaten" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" translateX="-40.0">
+                     <image>
+                        <Image url="@../../img/certificate.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

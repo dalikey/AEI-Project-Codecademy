@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1080.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programma.ui.CertificatenController">
+   <children>
+      <TableView fx:id="certificatenTableView" layoutY="237.0" prefHeight="369.0" prefWidth="1080.0" stylesheets="@../../css/tableview.css">
+        <columns>
+            <TableColumn fx:id="IDcolumn" prefWidth="49.59997379779816" text="#" />
+          <TableColumn fx:id="cursistColumn" prefWidth="333.59996795654297" text="Cursist" />
+            <TableColumn fx:id="geslachtColumn" prefWidth="161.5999755859375" text="Geslacht" />
+          <TableColumn fx:id="cursusColumn" prefWidth="248.7999267578125" text="Cursus" />
+            <TableColumn fx:id="beoordelingColumn" prefWidth="160.800048828125" text="Beoordeling" />
+            <TableColumn fx:id="ondertekenaarColumn" prefWidth="128.00006103515625" text="Ondertekenaar" />
+        </columns>
+      </TableView>
+      <ButtonBar layoutX="228.0" layoutY="188.0" prefHeight="40.0" prefWidth="306.0">
+        <buttons>
+            <Button fx:id="btnUpdate" mnemonicParsing="false" onAction="#handleUpdateBtn" styleClass="button5" stylesheets="@../../css/style.css" text="🏆 Afronden" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+        </buttons>
+      </ButtonBar>
+      <Pane layoutY="88.0" prefHeight="48.0" prefWidth="335.0" style="-fx-background-color: #68479F;">
+         <children>
+            <Label layoutX="69.0" layoutY="6.0" text="Certificaten pagina" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="838.0" layoutY="39.0" text="Slaag Percentage" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ProgressIndicator fx:id="percentageMan" layoutX="848.0" layoutY="144.0" prefHeight="87.0" prefWidth="85.0" progress="0.38" scaleX="2.0" scaleY="2.0">
+         <effect>
+            <ColorAdjust brightness="0.34" contrast="-0.02" hue="-0.02" />
+         </effect>
+      </ProgressIndicator>
+      <ProgressIndicator fx:id="percentageVrouw" layoutX="991.0" layoutY="142.0" prefHeight="87.0" prefWidth="85.0" progress="0.38" scaleX="2.0" scaleY="2.0">
+         <effect>
+            <ColorAdjust brightness="0.34" contrast="-0.02" hue="0.72" />
+         </effect>
+      </ProgressIndicator>
+      <Label layoutX="847.0" layoutY="79.0" text="M" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="990.0" layoutY="79.0" text="V" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="932.0" layoutY="74.0" startX="-100.0" stroke="WHITE" />
+      <Line endX="-100.0" endY="120.60000610351562" layoutX="1035.0" layoutY="74.0" startX="-100.0" stroke="WHITE" />
+   </children>
+</Pane>

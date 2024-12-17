@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1080.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programma.ui.MainMenuController">
+   <children>
+      <Circle fill="#64469c" layoutX="499.0" layoutY="-91.0" opacity="0.5" radius="274.0" stroke="#68479f" strokeLineCap="ROUND" strokeType="INSIDE" />
+      <Button fx:id="btnMainCertificaten" layoutX="632.0" layoutY="316.0" mnemonicParsing="false" onAction="#btnCertificaten" styleClass="button2" stylesheets="@../../css/style.css">
+         <graphic>
+            <Pane prefHeight="205.0" prefWidth="203.0" stylesheets="@../../css/style.css">
+               <children>
+                  <Label layoutX="55.0" layoutY="149.0" prefHeight="55.0" prefWidth="101.0" text="Certificaten" textFill="WHITE" translateZ="4.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Circle layoutX="104.0" layoutY="92.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.2134000062942505" green="0.9700000286102295" blue="0.3056789040565491" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.8137931227684021" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="74.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/certificate.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="-0.5" hue="-1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </Pane>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnMainWebcasts" layoutX="145.0" layoutY="317.0" mnemonicParsing="false" onAction="#btnWebcasts" styleClass="button2" stylesheets="@../../css/style.css">
+         <graphic>
+            <Pane prefHeight="205.0" prefWidth="203.0" stylesheets="@../../css/style.css">
+               <children>
+                  <Label layoutX="66.0" layoutY="149.0" prefHeight="55.0" prefWidth="95.0" text="Webcasts" textFill="WHITE" translateZ="4.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Circle layoutX="104.0" layoutY="92.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.7425826787948608" green="0.2134000062942505" blue="0.9700000286102295" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.8137931227684021" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="75.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/podcast.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="-0.5" hue="-1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </Pane>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnMainCursussen" layoutX="508.0" layoutY="75.0" mnemonicParsing="false" onAction="#btnCursussen" styleClass="button2" stylesheets="@../../css/style.css">
+         <graphic>
+            <Pane prefHeight="205.0" prefWidth="203.0" stylesheets="@../../css/style.css">
+               <children>
+                  <Label layoutX="64.0" layoutY="149.0" prefHeight="55.0" prefWidth="95.0" text="Cursussen" textFill="WHITE" translateZ="4.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Circle layoutX="104.0" layoutY="92.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.2134000062942505" green="0.35334911942481995" blue="0.9700000286102295" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.8137931227684021" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="74.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/open-book.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="-0.5" hue="-1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </Pane>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnMainCursisten" layoutX="265.0" layoutY="78.0" mnemonicParsing="false" onAction="#btnCursisten" styleClass="button2" stylesheets="@../../css/style.css">
+         <graphic>
+            <Pane prefHeight="205.0" prefWidth="203.0" stylesheets="@../../css/style.css">
+               <children>
+                  <Label layoutX="67.0" layoutY="149.0" prefHeight="55.0" prefWidth="95.0" text="Cursisten" textFill="WHITE" translateZ="4.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Circle layoutX="104.0" layoutY="92.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.9700000286102295" green="0.6332473754882812" blue="0.2134000062942505" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.8137931227684021" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="74.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/graduated.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="-0.5" hue="-1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </Pane>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnMainInschrijvingen" layoutX="389.0" layoutY="317.0" mnemonicParsing="false" onAction="#btnInschrijvingen" styleClass="button2" stylesheets="@../../css/style.css">
+         <graphic>
+            <Pane prefHeight="205.0" prefWidth="203.0" stylesheets="@../../css/style.css">
+               <children>
+                  <Label layoutX="45.0" layoutY="149.0" prefHeight="55.0" prefWidth="122.0" text="Inschrijvingen" textFill="WHITE" translateZ="4.0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Circle layoutX="104.0" layoutY="92.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.9700000286102295" green="0.2134000062942505" blue="0.5414057970046997" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" opacity="0.8137931227684021" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="74.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/voting.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="-0.5" hue="-1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </Pane>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>
