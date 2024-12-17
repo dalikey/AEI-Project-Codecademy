@@ -2,6 +2,8 @@
 
 This repository contains the **AEI Project**, a Java application developed as part of a Codecademy initiative. The project demonstrates core concepts of object-oriented programming, database interaction, and user input validation.
 
+![Codecademy Screenshot](./imgs/frontpage.png)
+
 ## Features
 
 - **Database Integration:** CRUD operations on a database for managing `Cursist` (students).
